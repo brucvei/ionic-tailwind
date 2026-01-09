@@ -68,3 +68,91 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Lockfiles (opcional - mantenha se sua política exigir)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Build outputs
+www/
+build/
+dist/
+out/
+
+# Ionic / Capacitor / Cordova
+cordova/
+.platforms/
+platforms/
+plugins/
+plugins-src/
+
+# Android (Gradle / build artifacts)
+android/.gradle/
+android/build/
+android/app/build/
+android/**/build/
+.gradle/
+local.properties
+
+# iOS (Xcode artifacts)
+ios/Pods/
+ios/build/
+ios/*.xcworkspace
+xcuserdata/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Other native generated files
+*.keystore
+*.jks
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.*.local
+.local/
+
+# IDEs
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# JetBrains caches/output
+out/
+*.class
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Misc
+coverage/
+.cache/
+.vite/
+.sass-cache/
+.eslintcache
+
+# Ignore sensitive or build-time generated json
+capacitor.config.json
+capacitor.config.ts
+
+# If you track native projects, consider removing the related ignores above.
